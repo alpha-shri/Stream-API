@@ -14,7 +14,7 @@ public class StreamAPI_Map {
 //	MAP will perform a function on each element of the collection
 //  Map -> Each element
 //	map(function)	
-		
+		System.out.println("Welcome to Stream - Map");
 		
 		List<String> cities = List.of("Mumbai", "Cuttack", "Pune", "Bengaluru");
 		
