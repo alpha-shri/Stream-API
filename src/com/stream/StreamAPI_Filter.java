@@ -5,9 +5,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.stream.constants.StreamConstants;
+
 public class StreamAPI_Filter {
 
 	public static void main(String[] args) {
+		
+		System.out.println(StreamConstants.MESSAGE);
 
 // USE OF FILTER WITH STREAM-API	
 		

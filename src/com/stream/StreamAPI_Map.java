@@ -5,16 +5,20 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.stream.constants.StreamConstants;
+
 public class StreamAPI_Map {
 
 	public static void main(String[] args) {
+		
+		System.out.println(StreamConstants.MESSAGE);
 		
 // USE OF MAP WITH STREAM-API	
 		
 //	MAP will perform a function on each element of the collection
 //  Map -> Each element
 //	map(function)	
-		System.out.println("Welcome to Stream - Map");
+		
 		
 		List<String> cities = List.of("Mumbai", "Cuttack", "Pune", "Bengaluru");
 		
