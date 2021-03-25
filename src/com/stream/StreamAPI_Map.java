@@ -35,6 +35,10 @@ public class StreamAPI_Map {
 
 	}
 	
+       public void printMessage(){
+	 System.out.println("Pull request successful");
+       }
+	
 	
 	
 
